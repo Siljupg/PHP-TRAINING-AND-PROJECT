@@ -8,6 +8,8 @@
 <body>
     <h1>Hello world</h1>
     <?php
+    // stringFunction
+
     $name = "hello Silju";
     // $output = strlen($name);
     // $output = str_word_count($name);
@@ -17,7 +19,19 @@
     // $output = strpos($name, "Silju");
     // $output = str_replace("Silju", 'swapna', $name);
     $output = ucwords($name);
-    echo $output
+    echo $output;
+
+    // mathFunction
+
+    // $math = pi();
+    // $math = min(10, 3, 44, 5);
+    // $math = max(10, 3, 44, 5);
+    // $math = abs(-10);
+    // $math = sqrt(64);
+    $math = rand();
+    // $math = round(1.50);
+
+    echo $math;
     ?>
 </body>
 </html>
