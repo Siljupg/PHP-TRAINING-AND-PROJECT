@@ -7,5 +7,17 @@
 </head>
 <body>
     <h1>Hello world</h1>
+    <?php
+    $name = "hello Silju";
+    // $output = strlen($name);
+    // $output = str_word_count($name);
+    // $output = strrev($name);
+    // $output = strtolower($name);
+    // $output = strtoupper($name);
+    // $output = strpos($name, "Silju");
+    // $output = str_replace("Silju", 'swapna', $name);
+    $output = ucwords($name);
+    echo $output
+    ?>
 </body>
 </html>
